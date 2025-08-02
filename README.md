@@ -4,6 +4,10 @@ A reinforcement learning model that predicts short-term heart rate using real-ti
 
 ---
 
+![HR Prediction Animation](assets/hr_prediction.gif)
+
+---
+
 ## 📊 Features
 
 - Uses PPO to optimize HR prediction
