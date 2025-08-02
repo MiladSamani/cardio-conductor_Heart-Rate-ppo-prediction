@@ -1,4 +1,4 @@
-# 🪀 Heart Rate Prediction using reinforcement learning ( PPO and PPG-DaLiA dataset )
+# 🪀 Heart Rate Prediction using reinforcement learning ( PPO & PPG-DaLiA )
 
 A reinforcement learning model that predicts short-term heart rate using real-time physiological signals (ACC, RESP, TEMP, ACTIVITY, etc.) collected from wearable sensors. Trained using Proximal Policy Optimization (PPO), the model learns to forecast the next 3 seconds of heart rate based on the previous 60 seconds of multimodal data.
 
