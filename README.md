@@ -46,11 +46,13 @@ cd hr-ppo-prediction
 # Install dependencies
 pip install -r requirements.txt
 
-# Train the model
-python train.py
+# Open the training notebook in Jupyter
+jupyter notebook PPO_HeartRate_Model.ipynb
 
-# Visualize results (animated or interactive)
-python visualize.py
+# (Optional) Explore raw or processed data
+jupyter notebook Project_EDA_1.ipynb
+jupyter notebook Project_EDA_2.ipynb
+
 ```
 
 ---
@@ -58,14 +60,22 @@ python visualize.py
 ## 📁 Project Structure
 
 ```
-🔹 train.py             # Training loop
-🔹 env.py               # Custom gym environment
-🔹 model.py             # PPO agent and ActorCritic model
-🔹 dataset.npy          # Your preprocessed data
-🔹 visualize.py         # Visualization of prediction
-🔹 LICENSE
-🔹 README.md
+📓 Project_EDA_1.ipynb       # Raw data exploration and visualization
+📓 Project_EDA_2.ipynb       # Processed data analysis
+📓 PPO_HeartRate_Model.ipynb # Contains PPO training and environment code
+📦 Data_final.npy            # Preprocessed dataset (signals, traits, etc.)
+📜 README.md
+📄 LICENSE
 ```
+
+---
+
+## 📓 Notebooks Overview
+
+- **Project_EDA_1.ipynb**: Visual exploration of raw data (distribution, outliers, gaps)
+- **Project_EDA_2.ipynb**: Processed dataset analysis and feature behavior
+- **PPO_HeartRate_Model.ipynb**: Environment setup, PPO model training, and test visualization
+
 
 ---
 
