@@ -78,7 +78,7 @@ jupyter notebook ccfinal-eda.ipynb
 
 ## 📈 Results
 
-- Final model achieves ~1 bpm absolute error (MAE)
+- Final model achieves ~1 bpm average absolute error (MAE)
 - Stable PPO with clipped loss and normalized inputs
 - Model generalizes well on test data
 
