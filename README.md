@@ -45,11 +45,11 @@ Use interactive animations or GIFs to show:
 ```bash
 
 # Open the training notebook in Jupyter
-jupyter notebook PPO_HeartRate_Model.ipynb
+jupyter notebook ccfinal-rl-model-env.ipynb
 
 # (Optional) Explore raw or processed data
-jupyter notebook Project_EDA_1.ipynb
-jupyter notebook Project_EDA_2.ipynb
+jupyter notebook ccproject-eda-plots.ipynb
+jupyter notebook ccfinal-eda.ipynb
 
 ```
 
@@ -58,9 +58,9 @@ jupyter notebook Project_EDA_2.ipynb
 ## 📁 Project Structure
 
 ```
-📓 Project_EDA_1.ipynb       # Raw data exploration and visualization
-📓 Project_EDA_2.ipynb       # Processed data analysis
-📓 PPO_HeartRate_Model.ipynb # Contains PPO training and environment code
+📓 ccproject-eda-plots.ipynb       # Raw data exploration and visualization
+📓 ccfinal-eda.ipynb       # Processed data analysis
+📓 ccfinal-rl-model-env.ipynb # Contains PPO training and environment code
 📦 Data_final.npy            # Preprocessed dataset (signals, traits, etc.)
 📜 README.md
 📄 LICENSE
@@ -68,20 +68,20 @@ jupyter notebook Project_EDA_2.ipynb
 
 ---
 
-## 📓 Notebooks Overview
+## 📓 Notebooks
 
-- **Project_EDA_1.ipynb**: Visual exploration of raw data (distribution, outliers, gaps)
-- **Project_EDA_2.ipynb**: Processed dataset analysis and feature behavior
-- **PPO_HeartRate_Model.ipynb**: Environment setup, PPO model training, and test visualization
-
+- [Exploratory Data Analysis (EDA)](https://www.kaggle.com/code/hosseineskandaria/ccproject-eda-plots) : Visual exploration of raw data (distribution, outliers, gaps)
+- [Processed Data Preparation](https://www.kaggle.com/code/hosseineskandaria/ccfinal-eda) : Processed dataset analysis and features
+- [Training & PPO Environment](https://www.kaggle.com/code/hosseineskandaria/ccfinal-rl-model-env) : Environment setup, PPO model training, and test visualization
 
 ---
 
 ## 📈 Results
 
-- 🧪 Mean Absolute Error ≈ **1 bpm**
+- Final model achieves ~1 bpm absolute error (MAE)
+- Stable PPO with clipped loss and normalized inputs
 - Model generalizes well on test data
-- Visual prediction plots are aligned with true HR
+
 
 ---
 
