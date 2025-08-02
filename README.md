@@ -39,12 +39,6 @@ Use interactive animations or GIFs to show:
 ## 🧪 How to Use
 
 ```bash
-# Clone the repo
-git clone https://github.com/yourusername/hr-ppo-prediction.git
-cd hr-ppo-prediction
-
-# Install dependencies
-pip install -r requirements.txt
 
 # Open the training notebook in Jupyter
 jupyter notebook PPO_HeartRate_Model.ipynb
