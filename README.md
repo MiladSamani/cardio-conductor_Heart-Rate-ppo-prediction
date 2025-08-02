@@ -89,7 +89,5 @@ This project is licensed under the [MIT License](./LICENSE).
 
 ## 🤛 Author
 
-[Your Name](https://github.com/yourusername)
-
-cc
+[TEAM CARDIO-CONDUCTOR](https://github.com/Hossein-Eskandari-a)
 
