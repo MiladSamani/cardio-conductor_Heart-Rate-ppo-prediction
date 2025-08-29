@@ -1,4 +1,4 @@
-#  Heart Rate Prediction using reinforcement learning ( PPO & PPG-DaLiA )
+# Heart Rate Prediction using reinforcement learning ( PPO & PPG-DaLiA )
 
 A reinforcement learning model that predicts short-term heart rate using real-time physiological signals (ACC, RESP, TEMP, ACTIVITY, etc.) collected from wearable sensors. Trained using Proximal Policy Optimization (PPO), the model learns to forecast the next 3 seconds of heart rate based on the previous 60 seconds of multimodal data.
 
@@ -82,7 +82,6 @@ jupyter notebook ccfinal-eda.ipynb
 - Stable PPO with clipped loss and normalized inputs
 - Model generalizes well on test data
 
-
 ---
 
 ## 📄 License
@@ -93,5 +92,5 @@ This project is licensed under the [MIT License](./LICENSE).
 
 ## 🤛 Author
 
-[TEAM CARDIO-CONDUCTOR](https://github.com/Hossein-Eskandari-a)
-
+- [Hossein-Eskandari-a](https://github.com/Hossein-Eskandari-a)
+- [MiladSamani](https://github.com/MiladSamani)
